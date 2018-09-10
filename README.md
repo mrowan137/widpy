@@ -4,11 +4,9 @@ Widpy
 Widpy is a (python 3.6, PyQt5, PyQtgraph) interactive tool for visualization of
 data from the particle-in-cell code TRISTAN-MP, in the same spirit as the IDL
 widget `wid.pro` (authors: Anatoly Spitkovsky, Lorenzo Sironi, Uri Keshet) and python
-package  `Iseault` (author: Patrick Crumley).  Here is a short Widpy demonstration:
+package  `Iseult` (author: Patrick Crumley).  Here is a short Widpy demonstration:
 
-<p align="center">
-  <img ![widpy_demo_480p](https://user-images.githubusercontent.com/38045958/45279979-b3da5f00-b4a0-11e8-9ecf-3708ee691d06.gif) />
-</p>
+![widpy_demo_480p](https://user-images.githubusercontent.com/38045958/45279979-b3da5f00-b4a0-11e8-9ecf-3708ee691d06.gif)
 
 While intended for general-purpose visualization of TRISTAN-MP data, Widpy
 includes features that are specific to simulations of magnetic reconnection:
@@ -16,12 +14,9 @@ includes features that are specific to simulations of magnetic reconnection:
 * Option to display a contour delineating the reconnection region, according to user selected threshold value
 * Slider controlling the reconnection threshold value, `dthresh`; the reconnection region is selected based on a mixing criterion between right-tagged and left-tagged particles.  Cells are counted as ones where reconnection has occurred if the mixing (between left- and right-tagged particles) criterion
 
-<p align="center">
-
 ```
 dthresh < (right-tagged particle density)/(total density) < 1-dthresh
 ```
-</p>
 
 is satisfied.
 
@@ -137,9 +132,9 @@ The ImageView object (consisting of the image object, and the colorbar/histogram
 Read more about the ImageView object in the [PyQtgraph documentation](http://pyqtgraph.org/documentation/)
 
 The basic controls referenced above are illustrated in this graphic:
-<p algin="center">
-  <img ![widpy_tutorial 001](https://user-images.githubusercontent.com/38045958/45284161-cd35d800-b4ad-11e8-82ca-7ac3a69906cc.jpeg)/>
-</p>
+
+![widpy_tutorial 001](https://user-images.githubusercontent.com/38045958/45284161-cd35d800-b4ad-11e8-82ca-7ac3a69906cc.jpeg)
+
 
 Built With
 ----------
