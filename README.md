@@ -84,7 +84,7 @@ PATH=/path/to/widpy/widpy/:$PATH
 export PATH
 ```
 
-Eo execute Widpy, just navigate to a directory containing TRISTAN data and run:
+To execute Widpy, navigate to a directory containing TRISTAN data and run:
 
 ```
 widpy.py
