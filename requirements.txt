@@ -1,33 +1,29 @@
 Requires:
 
-* Python 3.6.x
-* NumPy
-* Patplotlib
-* PyQt
-* PyQtgraph
-* h5py 
+    Python 3.6.x
+    NumPy
+    Patplotlib
+    PyQt
+    PyQtgraph
+    h5py 
 
-It is highly recommended to install the required packages through a package manager such as Conda.  Create the virtual environment:
+It is highly recommended to install the required packages through a package manager
+such as Conda.  Create the virtual environment:
 
-```
-conda create -n py36 python=3.6
-```
+    conda create -n py36 python=3.6
 
 and then install the required packages:
 
-```
-conda install numpy
-conda install matplotlib
-conda install pyqt
-conda install pyqtgraph
-conda install h5py
-```
+    conda install numpy
+    conda install matplotlib
+    conda install pyqt
+    conda install pyqtgraph
+    conda install h5py
 
 Running the tests in `/widpy/tests` requires Nose, which can be installed as:
 
-```
-conda install nose
-```
+    conda install nose
 
-Widpy is tested with Linux Red Hat, so no guarantees that it will work with other operating systems.
-Similarly, no guarantee that Widpy will work with Python versions < 3.6.x.
+Widpy is tested with Linux Red Hat, so no guarantees that it will work with other
+operating systems.  Similarly, no guarantee that Widpy will work with Python
+versions < 3.6.x.
