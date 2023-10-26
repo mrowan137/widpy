@@ -129,7 +129,7 @@ The ImageView object (consisting of the image object, and the colorbar/histogram
 * scroll up/down [on histogram] - increase/decrease the histogram range; drag the lines extending from the colorbar to adjust the mapping
 * right click [on colorbar] - select a builtin colorbar, as well as other colorbar options
 
-Read more about the ImageView object in the [PyQtgraph documentation](http://pyqtgraph.org/documentation/)
+Read more about the ImageView object in the [PyQtgraph documentation](https://pyqtgraph.readthedocs.io/en/latest/)
 
 The basic controls referenced above are illustrated in this graphic:
 
@@ -139,12 +139,12 @@ The basic controls referenced above are illustrated in this graphic:
 Built With
 ----------
 
-* [Anaconda](https://docs.anaconda.com/)
+* [Anaconda](https://docs.anaconda.com)
 * [H5py](http://docs.h5py.org/en/latest/) 
 * [Matplotlib](https://matplotlib.org/contents.html)
 * [NumPy](https://docs.scipy.org/doc/numpy/)
 * [PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/)
-* [PyQtgraph](http://pyqtgraph.org/documentation/)
+* [PyQtgraph](http://pyqtgraph.org)
 
 
 License
@@ -158,5 +158,5 @@ Acknowledgments
 
 * Anatoly Spitkovsky, Lorenzo Sironi, Uri Keshet, authors of IDL widget wid.pro
 * Patrick Crumley, author of python package [Iseult](https://github.com/pcrumley/Iseult)
-* Luke Campagnola, author of [PyQtgraph](http://pyqtgraph.org/documentation/)
+* Luke Campagnola, author of [PyQtgraph](http://pyqtgraph.org)
 
